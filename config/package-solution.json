@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-teams-tabs-pnpjs-client-side-solution",
+    "id": "f49bbced-0282-40e7-94c7-b9be60dd0c66",
+    "version": "3.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.ReadWrite.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-teams-tabs-pnpjs.sppkg"
+  }
+}
